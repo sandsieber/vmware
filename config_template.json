@@ -1,0 +1,35 @@
+{
+    "hosts": [
+        "esxi001.domain.lab",
+        "esxi002.domain.lab",
+        "esxi003.domain.lab",
+        "esxi004.domain.lab"
+    ],
+    "new_user": [
+        {
+          "username": "user1",
+          "password": "password1",
+          "role": "ReadOnly",
+          "description": ""
+        },
+        {
+          "username": "user2",
+          "password": "password2",
+          "role": "ReadOnly",
+          "description": ""
+        },
+        {
+          "username": "user3",
+          "password": "password3",
+          "role": "ReadOnly",
+          "description": ""
+        },
+        {
+          "username": "user4",
+          "password": "password4",
+          "role": "ReadOnly",
+          "description": ""
+        }
+    ]
+}
+  
