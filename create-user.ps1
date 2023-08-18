@@ -176,11 +176,9 @@ try{
     break
 }
 
-
 if($functionname -eq 'Create'){
     
     New-custom_User -userconfigfile $json -logincredentials $(Get-Credential)
-
 
 }elseif ($functionname -eq 'Remove') {
     
